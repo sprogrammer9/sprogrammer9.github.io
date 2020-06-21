@@ -126,7 +126,7 @@ body{
     background-color: #E5E5E5;
 }
 
-.clientrow{
+clientrow{
     margin-top: 10%;
     margin-bottom: 10%;
 }
@@ -183,7 +183,17 @@ p{
     /* line-height: 37px; */
 }
 
-.clientlogo{
-    width: 15%;
-    height: 15%;
+img{
+    width: 10%;
+    height: 10%;
+}
+
+.logo{
+    width: 130px;
+    height: 40px;
+}
+
+.logowhite{
+    width: 150px;
+    height: 70px;
 }
