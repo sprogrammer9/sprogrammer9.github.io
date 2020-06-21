@@ -1,0 +1,189 @@
+/*-----Common use classes-------*/
+.uppercase{
+    text-transform: uppercase;
+}
+.uppercase-bold{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.text-center{
+    text-align: center;
+}
+
+/*------Background------------*/
+body{
+    background-color: #E5E5E5;
+}
+/*------------Footer Section--------------*/
+#footer-section{
+    background-color:#0F2531;
+    color: white;
+    margin-top: 5%;
+    padding: 20px;
+    
+}
+
+.footer-list{
+    list-style: none;
+    padding-inline-start: 0;
+}
+.social-list{
+    padding-inline-start: 0;
+}
+.social-list li{
+    list-style: none;
+    display: inline;
+    padding: 10px 10px 10px 0;
+}
+.footer-link{
+   
+    text-decoration: none;
+    color: white;
+    padding: 0;
+}
+#sitemap{
+    display: inline-block;
+}
+
+/*----------Reset Styles----------*/
+
+* {
+    box-sizing: border-box;
+}
+html,body{
+    margin:0;
+    width: 100%;
+    overflow-x: hidden;
+}
+/*-----Imports------------*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.grey-dot {
+    height: 7px;
+    width: 7px;
+    background-color: #C4C4C4;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 1.5px 7px 1.5px 1.5px;
+    
+  }
+
+/* change the background color */
+.navbar-custom {
+    background-color: #F1F1F1;
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-item .nav-link {
+    color: black;
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: black;
+}
+.nav-link{
+    position:relative;
+}
+.current-page{
+    color: #E4AF26 !Important;
+}
+
+.nav-black{
+    color: black;
+}
+
+/* ------------ Media Queries --------------- */
+@media screen and (min-width: 992px){
+    .current-page:before {
+    content:'';
+    position: absolute;
+    top:30px;
+    left: 5px;
+    right: 0;
+    bottom:0;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-top:10px solid black;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom:5px solid transparent;
+}
+}
+
+h3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 55px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+body{
+    background-color: #E5E5E5;
+}
+
+.row{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.card-body{
+    background: rgba(255, 255, 255, 0.85);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06);
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    left: 139px;
+}
+
+.bottom-text{
+    position: absolute;
+    width: 100%;
+    height: 32%;
+         
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 32px;
+    text-transform: none;
+}
+
+button{
+    
+    width: 104px;
+    height: 52px; 
+    left: 573px;
+    top: 1642px;
+
+    background: #27AE60;
+    border-radius: 9%;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    /* line-height: 148.4%; */
+}
+
+.client-name{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    /* line-height: 37px; */
+}
+
+img{
+    width: 10%;
+    height: 10%;
+}
